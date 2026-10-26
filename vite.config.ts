@@ -23,7 +23,7 @@ function devCspRelaxation(): Plugin {
 export default defineConfig({
   // Relative asset paths so the build works on GitHub Pages sub-paths
   // (https://<user>.github.io/<repo>/) as well as on a root domain.
-  base: './',
+  base: '/PassGuard',
   plugins: [react(), tailwindcss(), devCspRelaxation()],
   server: {
     // HMR is disabled in AI Studio via DISABLE_HMR env var.
