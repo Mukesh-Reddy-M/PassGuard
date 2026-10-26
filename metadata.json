@@ -1,0 +1,6 @@
+{
+  "name": "PassGuard",
+  "description": "A private, 100% client-side password strength analyzer and secure generator. Detects weak patterns, leetspeak, keyboard walks, and dates without storing or sending data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
